@@ -1,6 +1,6 @@
 {
-  "name": "tonchik-tm/pdf-to-html",
-  "description": "This PHP class can convert your pdf files to html using poppler-utils.",
+  "name": "medmen/pdf-to-html",
+  "description": "This PHP class can convert your pdf files to html using poppler-utils. Forked from tonchik for updates",
   "license": "MIT",
   "authors": [
     {
@@ -8,11 +8,16 @@
       "email": "tonchik@tonchik.net",
       "homepage": "http://www.tonchik.net",
       "role": "Developer"
-    }
+    },
+    {
+      "name": "medmen",
+      "email": "med-men@gmx.net",
+      "role": "Developer"
+    }    
   ],
   "minimum-stability": "dev",
   "require": {
-    "php": ">=5.4.0",
+    "php": ">=7.4.0",
     "pelago/emogrifier": "^6.0.0",
     "ext-dom": "*",
     "ext-fileinfo": "*"
